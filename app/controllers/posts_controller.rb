@@ -38,7 +38,6 @@ class PostsController < ApplicationController
     @post.destroy
 
     redirect_to root_path
-    @post = Post.find(params[:id])
   end
 
   private
